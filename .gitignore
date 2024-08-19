@@ -1,0 +1,36 @@
+# Logs
+logs/
+*.log
+
+# TestCafe screenshots and videos
+reports/screenshots/
+reports/videos/
+reports/test-results/
+
+# Node.js dependencies
+node_modules/
+
+#package-lock
+package-lock.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build outputs
+dist/
+build/
+
+# VSCode settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Linux trash folder
+.Trash-*
+
+# Windows System files
+Thumbs.db
+Desktop.ini

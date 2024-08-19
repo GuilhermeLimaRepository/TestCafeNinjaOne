@@ -1,0 +1,21 @@
+{
+  "name": "testcafe-proof-of-concept",
+  "version": "1.0.0",
+  "description": "This is a project developed for the NinjaOne QA Technical Test",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "testcafe chrome tests/e2e/tests/**/*.js",
+    "test:e2e:firefox": "testcafe firefox tests/e2e/tests/**/*.js",
+    "test:e2e:all": "testcafe 'chrome,firefox' tests/e2e/tests/**/*.js"
+  },
+  "author": "Antonio Lima",
+  "license": "My Own",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "pactum": "^3.7.1",
+    "testcafe": "^3.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
